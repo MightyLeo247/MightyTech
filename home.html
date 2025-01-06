@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mighty Tech Consultancy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+              <div class="navbar">
+                  <div class="logo">
+                      <img src="Mighty Tech Consultancy (Logo).png" width="125px">
+                  </div>
+                  <nav>
+                      <ul id="MenuItems">
+                          <li><a href="">Home</a></li>
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="service.html">Services</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                  </nav>
+                  <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+              </div>
+              <div class="row">
+                  <div class="col-2">
+                      <h1>Empowering You With Technology,<br>Knowledge And Guidance</h1>
+                  </div>
+                  <div class="col-2">
+                    <img src="Mighty Tech Consultancy (B.Card).png">
+                </div>
+                </div>
+            
+                  <div class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-col-1">
+                                <h3>Download Our App</h3>
+                                <p>Download App for Andriod and ios mobile phone.</p>
+                                <div class="app-logo">
+                                    <img src="play-store.png">
+                                    <img src="app-store.png">
+                                </div>
+                            </div>
+                            <div class="footer-col-2">
+                                <p>Our Purpose Is To Help Businesses And 
+                                    Individuals Achieve Their Goals.</p>
+                            </div>
+                            <div class="footer-col-3">
+                                <h3>Useful Links</h3>
+                               <ul>
+                                <li>Coupons</li>
+                                <li>Blog Post</li>
+                                <li>Return Policy</li>
+                                <li>Join Affiliate</li>
+                               </ul>
+                            </div>
+                            <div class="footer-col-3">
+                                <h3>Follow Us</h3>
+                               <ul>
+                               <a href="https://www.facebook.com/share/1MbxtNKvxG/?mibextid=LQQJ4d/"><li>Facebook</li> </a>
+                               <a href="https://x.com/mightytechng?s=21/"><li>Twitter</li></a>
+                               <a href="https://www.instagram.com/mightytechconsultancy/profilecard/"><li>Instagram</li></a>
+                               <a href="https://youtube.com/@mightytechconsultancy?si=5S71DMf6RG_ymWiL/"><li>Youtube</li></a>
+                               </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="Copyright">Copyright ©MightyTechConsultancy</p>
+                    </div>
+                </div>
+                 
+                <script>
+                    var MenuItems =document.getElementById("MenuItems");
+                
+                    MenuItems.style.maxHeight = "0px"
+                
+                    function menutoggle(){
+                        if(MenuItems.style.maxHeight == "0px")
+                    {
+                        MenuItems.style.maxHeight = "200px"
+                    }
+                    else{
+                        MenuItems.style.maxHeight = "0px"
+                    }
+                    }
+                </script>
+                
+
+</body>
+</html>
+
+
